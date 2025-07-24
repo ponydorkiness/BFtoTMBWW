@@ -10,7 +10,6 @@ copy output.txt input.txt
 python3 4_fuse.py input.txt output.txt
 python3 5_orginal.py orginal.txt output.txt input.txt
 python3 fixloops.py input.txt output.txt
-echo nya
 python 2_strip.py output.txt input.txt
 python removeallblanks.py input.txt
 del orginal.txt
