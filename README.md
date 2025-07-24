@@ -1,4 +1,4 @@
-# Brainfuck to Turing Machine But Way Worse compiler 
+# Brainfuck to [Turing Machine But Way Worse](https://github.com/a-github-account/Turing-Machine-But-Way-Worse) compiler 
 
 This program converts Brainfuck code into the esoteric programming language "Turing Machine But Way Worse".  
 
@@ -12,6 +12,7 @@ Before using this tool, make sure to minify your Brainfuck code using:
 https://mothereff.in/brainfuck-minifier  
 This removes any newlines or invalid characters.
 
+3. Your compiled file will be in `program.tmw` you can then put this into a interuppter.
 ## Notes
 
 This interpreter runs on a slightly modified version of Brainfuck:
