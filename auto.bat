@@ -17,6 +17,6 @@ del orginal.txt
 del output.txt
 python fixstart.py input.txt
 python fixalllabels.py input.txt output.txt
-copy output.txt program.txt
+copy output.txt program.tmw
 del input.txt
 del output.txt
