@@ -20,3 +20,8 @@ This interpreter runs on a slightly modified version of Brainfuck:
 - That digit will be stored directly into **cell 0** of memory.
 
 Example: If you input `5`, it will store the value `5` in the 0th cell.
+
+
+It is still a bit broken if you try to do
+`>>++++++++++<<[->+>-[>+>>]>[+[-<+>]>+>>]<<<<<<]>>[-]>>>++++++++++<[->-[>+>>]>[+[-<+>]>+>>]<<<<<]>[-]>>[>++++++[-<++++++++>]<.<<+>+>[-]]<[<[->-<]++++++[->++++++++<]>.[-]]<<++++++[-<++++++++>]<.[-]<<[-<+>]<`
+it breaks, it is just supposed to print the value of a cell but it print's 0's infinitely instead.
